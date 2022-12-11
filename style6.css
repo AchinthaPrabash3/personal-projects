@@ -1,0 +1,148 @@
+
+body{
+  font-family: 'Courier New', Courier, monospace ;
+  text-transform: capitalize;
+}
+img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.header{
+  display: flex;
+  top: 0;
+  margin: 0;
+  margin-left: -10px;
+  width: 100%;
+  background-color: rgb(227, 227, 227);
+}
+.header h1{
+  text-transform: uppercase;
+  margin:auto auto auto 50px;
+}
+nav{
+  margin-left: auto;
+}
+ul{
+  margin: 0;
+  display: flex;
+  
+}
+li{
+  font-size: 20px;
+  padding:31px 50px;
+  display: inline-block;
+}
+li:hover{
+    background-color: aliceblue;
+}
+.w {
+  height: 300px;
+  width: 1400px;
+  background-color: aqua;
+  margin: 25px auto ;
+}
+li a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.main1{
+  display: flex;
+  justify-content: center;
+  margin:10px 0 25px 0;
+}
+.box1{
+  padding: 10px;
+  margin:15px 0 0 25px;
+  height: 500px;
+  width: 600px;
+ background: linear-gradient(45deg, rgba(217, 217, 217,0.3),rgba(164, 164, 164,0.5));
+ 
+}
+.box1 h1{
+  padding-left: 30px;
+  font-size: 61px;
+}
+.box1 p{
+  padding-left: 35px;
+  font-size: 25px;
+  font-weight:550;
+}
+.box2{
+  margin:25px 0 0 20px;
+  height: 500px;
+  width: 800px;
+  
+}
+.main2,.main3{
+  margin:20px 0;
+  display: flex;
+  justify-content: center;
+}
+.box3{
+  padding: 10px;
+  height:600px;
+  width:500px;
+  background-color: rgba(176, 176, 176, 0.448);
+}
+.box3:hover{
+  background-color:rgba(124, 255, 255, 0.505);
+  box-shadow: 0 0  0 5px rgba(162, 162, 162, 0.175);
+}
+h2{
+  font-weight:bold;
+  margin:5px 0 10px 10px;
+  font-size: 50px;
+  padding: 0 0 0 15px;
+}
+.box3 p{
+  margin-top: 2px;
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: 550;
+}
+.box4{
+  margin:20px 0 0 25px;
+  width: 850px;
+  height: 650px;
+ 
+}
+.box5{
+  margin:20px 0 0 25px;
+  width:850px;
+  height: 650px;
+ 
+}
+.box6{
+  padding: 10px;
+  margin-left: 25px;
+  height:600px;
+  width:500px;
+  background-color:rgb(176, 176, 176, 0.448);
+}
+.box6:hover{
+  background:linear-gradient(unset);
+  box-shadow: 0 0  0 5px rgba(162, 162, 162, 0.175);
+  background-color: rgb(255, 224, 130);
+}
+.box6 p{
+  margin-top: 2px;
+  padding-left: 20px;
+  font-size: 19px;
+  font-weight: 550;
+}
+.mini1,.mini2{
+  margin-top: 19px;
+  height: 300px;
+  width: 800px;
+  box-shadow: 0 0 8px 5px rgb(222, 222, 222);
+}
+.mini1{
+  margin-left: 25px;
+}
+footer{
+  margin: 20px;
+  height:150px;
+  background-color: gray;
+}

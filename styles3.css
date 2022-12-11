@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+  }
+.header{
+    width: 100%;
+    text-transform: uppercase;
+    background: linear-gradient(45deg,rgb(138, 232, 255), rgb(189, 242, 255), rgb(112, 215, 253));
+    padding:20px;
+    margin: 5px;
+}
+.arc img{
+    width: 100%;
+    max-width: 400px;
+    height: 700px;
+    object-fit: cover;
+
+}
+.arc{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1400px;
+    margin: 20px auto 0 auto;
+}
+.what{
+    display: block;
+    background-color: bisque;
+    height: 400px;
+    width: 500px;
+    margin:10px 0 50px 110px ;
+    padding: 10px 10px 10px 10px;
+}
+.what h2{
+        font-size: 61px;
+}
+.what p{
+    font-size: 20px;
+}
+img:hover{
+    box-shadow:3px 3px 6px 5px rgb(242, 242, 242);
+}
+footer{
+    background-color: bisque;
+    text-align: center;
+}
+a{
+    color: black;
+}
+.dd img{
+    width: 800px;
+    height: 415px;
+    margin:0px auto 0px 0px;
+}
+.dd{
+    width:800px;
+    margin:-450px 45px 0 auto;
+   
+}
+.type{
+    padding:20px;
+    
+    margin: 50px auto;
+    height: auto;
+    width: 100%;
+    
+}
+.type1,.type2,.type3{
+    padding: 10px;
+    width: 390px;
+    height: 500px;
+    background-color:rgb(255, 247, 197);
+    display: inline-flex;
+    flex-direction: column;
+}
+.type1{
+    margin: 0px 0 0 125px  ;
+}
+.type2,.type3{
+    margin: 0 0 0 50px  ;
+}
+h2{
+    font-size: 30px;
+}
+.type3:hover{
+    background:linear-gradient(-75deg, rgb(145, 255, 121), black);
+    color: white;
+}
+.type2:hover{
+    background:linear-gradient(-45deg, rgb(163, 255, 243), black);
+    color: white;
+}
+.type1:hover{
+    background:linear-gradient(-75deg, rgb(163, 163, 255), black);
+    color: white;
+}

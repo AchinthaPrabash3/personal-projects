@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>F1 center</title>
+</head>
+<body>
+    <main>
+        <h1 id="title">Welcome to Formula 1</h1>
+        <p>Thank you for taking the time to help us improve the platform</p>
+        <form id="survey-form">
+            <div>
+                <fieldset>
+                    <label id="name-label">Full Nmae: <input type="text" id="name" placeholder="full nmae" required></label>
+                    <label id="email-label">Email: <input type="email" id="email" placeholder="formula-one@gmail.com" required ></label>
+                    <label id="number-label">Age: <input type="number" id="number" max="120" min="5" required></label>
+                    
+                </fieldset> 
+                <fieldset>
+                    <label> Your Favorit F1 Team:
+                        <select id="dropdown">
+                            <option>
+                                Red Bull Racing</option>
+                            <option>
+                                Ferrari</option>
+                            <option>
+                                Mercedes</option>
+                            <option>
+                                Alpine</option>
+                            <option>
+                                McLaren</option>
+                            <option>
+                                Alfa Romeo</option>
+                            <option>
+                                Aston Martin</option>
+                            <option>
+                                Haas F1 Team</option>
+                            <option>
+                                AlphaTauri</option>
+                            <option>
+                                Williams</option>
+                        </select>
+                </label>
+                <p>Would You Recomend F1 To a Friend: </p>
+                <label><input type="radio" name="yes-or-no" value="yes" class="inline"> Yes</label>
+                <label> <input type="radio" name="yes-or-no" value="no" class="inline"> No</label>
+                </fieldset>  
+                <fieldset>
+                    <label> I accept the terms and conditions: <input type="checkbox" class="inline"></label>
+                    <label>subscribe to news letter: <input type="checkbox" class="inline"></label>
+                    <label>feedback: <textarea id="feedback" name="feedback" rows="3" cols="30" placeholder="what can we improve....."></textarea></label>
+                </fieldset>   
+                <label><input type="submit" id="submit"></label>         
+            </div>
+        </form>
+    </main>
+</body>
+</html>

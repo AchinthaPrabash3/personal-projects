@@ -1,0 +1,51 @@
+h1 ,h2 ,p{
+    text-align:center;
+    
+}
+body{
+    background-image: url("img/wallpaperflare.com_wallpaper\ \(25\).jpg");
+    
+    font-family:sans-serif;
+    padding: 20px;
+}
+.main_manue{
+    width: 50%;
+    max-width: 550px;
+    background-color:#daacfffa;
+    margin-left: auto;
+    margin-right:auto;
+    padding:20px 30px 20px 30px;
+    text-transform: capitalize;
+}
+.item p{
+    display: inline-block;
+    font-size: 18px;
+    
+    margin-top:5px;
+    margin-bottom:6px;
+    font-weight: bold;
+}
+.s_name{
+     text-align: left;
+     width: 70%;
+}
+.ep_count{
+    text-align:right;
+    width: 15%;
+}
+h1 ,h2{
+    font-family: impact;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
+.ong{
+    text-align:right ;
+    width: 15%;
+}
+.item:hover{
+    color:#5900ff;
+}

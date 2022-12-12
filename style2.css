@@ -29,11 +29,11 @@ li:hover {
 }
 .about {
   width: 100%;
-  max-width: 500px;
+  max-width: 600px;
   margin: 100px 0 260px 150px;
 }
 .about h1 {
-  font-size: 50px;
+  font-size: 61px;
   color: orangered;
 }
 .about p {

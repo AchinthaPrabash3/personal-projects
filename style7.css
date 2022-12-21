@@ -1,0 +1,43 @@
+h1 .flex{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1rem;
+    text-align: center;
+}   
+h1 .flex span:first-of-type{
+    font-size: 0.7em;
+}
+h1 .flex span:last-of-type{
+    font-size: 1.2em;
+}
+/*span[class ~="sr"]{
+    border: 0 !important;
+    clip: rect(1px, 1px, 1px, 1px) !important;
+    clip-path: inset(50%) !important;
+    -webkit-clip-path: inset(50%) !important;
+    height: 1px !important;
+    width: 1px !important;
+    position: absolute !important;
+    overflow: hidden !important;
+    white-space: nowrap !important;
+    padding: 0 !important;
+    margin: -1px !important;
+}*/
+
+#year{
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+    gap: 20px;
+    top: 0;
+    color:white;
+    background-color: darkblue;
+    z-index: 999;
+    padding:0.5rem calc(1.25rem + 2px) 0.5rem 0; 
+    margin: 0 12px;
+}
+#years span[class] {
+    font-weight: bold;
+    width: 4.5rem;
+    text-align: right;
+  }

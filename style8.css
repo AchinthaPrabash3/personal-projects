@@ -1,0 +1,35 @@
+.main{
+    display: block;
+    height: 1400px;
+    background-color: aqua;
+    width:900px;
+}
+.box1,.box2,.box3,.box4,.box5{
+    margin-bottom: 9px;
+    height: 171px;
+    width: 186.8px;
+    background-color: aliceblue;
+    border:solid 2px black;
+    border-radius: 25%;
+}
+.box1,.box3,.box5{
+    margin-left:199px;
+}
+.box2,.box4{
+    margin-left: 350px;
+}
+/*.box1:hover{
+    margin-left: 350px;
+}*/
+.box2:hover{
+    margin-left: 199px;
+}
+/*.box3:hover{
+    margin-left: 350px;
+}*/
+.box4:hover{
+    margin-left: 199px;
+}
+/*.box5:hover{
+    margin-left: 350px;
+}*/

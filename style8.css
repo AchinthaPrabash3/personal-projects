@@ -1,35 +1,82 @@
-.main{
-    display: block;
-    height: 1400px;
-    background-color: aqua;
-    width:900px;
+body {
+  font-family: Roboto;
+  background: linear-gradient(150deg, #c2fcef, #44ffbb);
 }
-.box1,.box2,.box3,.box4,.box5{
-    margin-bottom: 9px;
-    height: 171px;
-    width: 186.8px;
-    background-color: aliceblue;
-    border:solid 2px black;
-    border-radius: 25%;
+
+header {
+  top: 12px;
+  left: 25px;
+  position: absolute;
+  width: 100%;
 }
-.box1,.box3,.box5{
-    margin-left:199px;
+nav {
+  padding: 5px;
+  width: 500px;
 }
-.box2,.box4{
-    margin-left: 350px;
+nav > ul {
+  display: flex;
+  justify-content: space-between;
 }
-/*.box1:hover{
-    margin-left: 350px;
-}*/
-.box2:hover{
-    margin-left: 199px;
+nav > ul > li {
+  letter-spacing: 5px;
+  font-weight: bold;
+  display: block;
 }
-/*.box3:hover{
-    margin-left: 350px;
-}*/
-.box4:hover{
-    margin-left: 199px;
+.about {
+  position: absolute;
+  text-transform: uppercase;
+  height: 368px;
+  width: 1193px;
+  top: 310px;
+  right: 510px;
+  bottom: 301px;
+  left: 209px;
 }
-/*.box5:hover{
-    margin-left: 350px;
-}*/
+.about > ul {
+  display: flex;
+}
+.about > ul > li {
+  margin-left: 30px;
+  font-size: 17px;
+}
+h1 {
+  font-size: 50pt;
+  letter-spacing: 5px;
+  margin: 0;
+}
+.circle {
+  border: solid black 5px;
+  position: absolute;
+  border-radius: 50%;
+  background-color: antiquewhite;
+  height: 110px;
+  width: 110px;
+  top: 150px;
+  right: 510px;
+  bottom: 10px;
+  left: 190px;
+}
+.circle img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.Vector2 {
+  border-radius: 10px;
+  position: absolute;
+  height: 534px;
+  width: 8px;
+  background-color: black;
+  top: 91px;
+  left: 88px;
+  bottom: 455px;
+}
+.Vector3 {
+  border-radius: 10px;
+  position: absolute;
+  height: 50px;
+  width: 8px;
+  background-color: black;
+  top: calc(534px + 120px);
+  left: 88px;
+}

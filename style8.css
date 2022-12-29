@@ -8,6 +8,7 @@ header {
   left: 25px;
   position: absolute;
   width: 100%;
+  z-index: 1;
 }
 nav {
   padding: 5px;
@@ -31,18 +32,22 @@ nav > ul > li {
   right: 510px;
   bottom: 301px;
   left: 209px;
+  
 }
 .about > ul {
   display: flex;
 }
 .about > ul > li {
+  letter-spacing: 3px;
   margin-left: 30px;
   font-size: 17px;
+  font-weight: bolder;
 }
 h1 {
-  font-size: 50pt;
+  font-size: 55pt;
   letter-spacing: 5px;
   margin: 0;
+  font-weight:900;
 }
 .circle {
   border: solid black 5px;
@@ -51,15 +56,16 @@ h1 {
   background-color: antiquewhite;
   height: 110px;
   width: 110px;
-  top: 150px;
+  top: 180px;
   right: 510px;
-  bottom: 10px;
+  bottom: 0px;
   left: 190px;
+  z-index: 1;
 }
-.circle img{
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
+.circle img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
 .Vector2 {
   border-radius: 10px;
@@ -79,4 +85,12 @@ h1 {
   background-color: black;
   top: calc(534px + 120px);
   left: 88px;
+}
+img {
+  position: absolute;
+  width: 1465px;
+  height: 984px;
+  left: 200px;
+  top: 0px;
+  background: unset;
 }

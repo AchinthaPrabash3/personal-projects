@@ -1,0 +1,121 @@
+body {
+  font-family: Roboto;
+}
+main{
+
+}
+.contaier1 {
+  display: flex;
+}
+.intro {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 448px;
+  height: 768px;
+  background: linear-gradient(60.67deg, #ffbc6e 0%, #ffddb6 100%, #432400 100%);
+}
+.image img {
+  position: absolute;
+  left: 448px;
+  top: 0px;
+  width: 576px;
+  height: 768px;
+}
+header {
+    z-index: 1;
+  border-radius: 14px;
+  background-color: #a44f00;
+  position: absolute;
+  width: 452px;
+  height: 53px;
+  left: 109px;
+  right: 463px;
+  top: 20px;
+}
+nav {
+  align-items: center;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 30px 18px;
+  gap: 73px;
+}
+li {
+  letter-spacing: 0.44em;
+  color: white;
+  display: block;
+  margin-top: -15px;
+}
+.circle {
+    z-index: 1;
+  background-color: white;
+  border-radius: 50%;
+  top: 12px;
+  left: 21px;
+  position: absolute;
+  width: 74px;
+  height: 74px;
+}
+.intro h1 {
+    z-index: 1;
+  position: absolute;
+  width: 417px;
+  height: 304px;
+  left: 40px;
+  top: 191px;
+  font-size: 64px;
+  line-height: 122%;
+  letter-spacing: 0.23em;
+}
+.l1 {
+    z-index: 1;
+  position: absolute;
+  width: 175px;
+  height: 8px;
+  left: 475px;
+  top: 435px;
+  border-radius: 5px;
+  background-color: black;
+}
+.l2 {
+    z-index: 1;
+  position: absolute;
+  width: 50px;
+  height: 8px;
+  left: calc(475px + 175px + 10px);
+  top: 435px;
+  border-radius: 5px;
+  background-color: black;
+}
+button {
+  width: 175px;
+  height: 60px;
+  border-radius: 54px;
+  left: 137px;
+  top: calc(534px + 50px);
+  position: absolute;
+  border: none;
+  font-size: 20px;
+  color: white;
+  background-color: #a44f00;
+  letter-spacing: 0.41em;
+  cursor: pointer;
+}
+.l {
+  text-transform: uppercase;
+  width: 175px;
+  height: 60px;
+  border-radius: 54px;
+  left: 137px;
+  top: calc(534px + 120px);
+  position: absolute;
+  font-size: 16px;
+  border: none;
+  color: black;
+  background-color: transparent;
+  letter-spacing: 0.41em;
+  cursor: pointer;
+}

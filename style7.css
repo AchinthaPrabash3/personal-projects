@@ -50,3 +50,13 @@ header {
   height: 8px;
   width: 50px;
 }
+.vector{
+  z-index: 1;
+  overflow: hidden;
+  top: 550px;
+  left: 0;
+  right:1200px;
+  width: 884px;
+  height: 650px;
+  position: absolute;
+}

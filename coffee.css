@@ -1,30 +1,37 @@
 body {
   font-family: Roboto;
 }
-main{
- margin: 0;
+a{
+  text-decoration: none;
+  color:inherit;
+}
+main {
+  position: absolute;
+  top:0;
+  left: 0;
 }
 .contaier1 {
+  position: absolute;
+  overflow: hidden;
   display: flex;
 }
 .intro {
-  position: absolute;
   left: 0px;
   top: 0px;
+  bottom: 0;
   width: 715px;
-height: 982px;
+  height: 982px;
   background: linear-gradient(60.67deg, #ffbc6e 0%, #ffddb6 100%, #432400 100%);
 }
 .image img {
-  position: absolute;
   left: 715px;
-  right:0;
+  right: 0;
   top: 0px;
   width: 800px;
-height: 982px;
+  height: 982px;
 }
 header {
-    z-index: 1;
+  z-index: 2;
   border-radius: 14px;
   background-color: #a44f00;
   position: absolute;
@@ -45,13 +52,13 @@ ul {
   gap: 150px;
 }
 li {
-  letter-spacing: 0.44em;
+  letter-spacing: 0.46em;
   color: white;
   display: block;
   margin-top: -10px;
 }
 .circle {
-    z-index: 1;
+  z-index: 1;
   background-color: white;
   border-radius: 50%;
   top: 10px;
@@ -61,30 +68,31 @@ li {
   height: 98px;
 }
 .intro h1 {
-    position: absolute;
-    width: 577px;
-    height: 375px;
-    left: 75px;
-    top: 181px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 96px;
-    line-height: 122%;
-    /* or 117px */
-    
-    letter-spacing: 0.23em;
-    
-    color: #000000;
+  z-index: 1;
+  position: absolute;
+  width: 577px;
+  height: 375px;
+  left: 75px;
+  top: 181px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 122%;
+  /* or 117px */
+
+  letter-spacing: 0.23em;
+
+  color: #000000;
 }
 .l1 {
-    z-index: 1;
+  z-index: 1;
   position: absolute;
   width: 175px;
   height: 8px;
   left: 673px;
-top: 550px;
+  top: 550px;
   border-radius: 5px;
   background-color: black;
 }
@@ -99,10 +107,10 @@ top: 550px;
   background-color: black;
 }
 button {
-  width: 175px;
-  height: 60px;
+  width: 242px;
+  height: 74px;
   border-radius: 54px;
-  left: 234px;
+  left: 254px;
   top: calc(654px + 100px);
   position: absolute;
   border: none;
@@ -114,17 +122,35 @@ button {
 }
 .l {
   text-transform: uppercase;
-  width: 175px;
+  width: 150px;
   height: 60px;
   border-radius: 54px;
-  left: 234px;
-  top: calc(654px + 190px);
+  left: 300px;
+  top: calc(654px + 180px);
   position: absolute;
-  font-size: 14px;
-  font-weight: 700;
+  font-size: 12px;
+  font-weight: 1000;
   border: none;
   color: black;
   background-color: transparent;
-  letter-spacing: 0.41em;
+  letter-spacing: 0.43em;
   cursor: pointer;
+}
+.left-sv {
+  height: 491px;
+  width: 322px;
+  position: absolute;
+  top:514px;
+  left: -30px;
+}
+.right-sv{
+  position: absolute;
+width: 871px;
+height: 521px;
+left: 650px;
+top: 461px;
+}
+li :hover{ 
+  color: #000000;
+  font-weight: 900;
 }

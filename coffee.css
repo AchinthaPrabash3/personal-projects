@@ -2,7 +2,7 @@ body {
   font-family: Roboto;
 }
 main{
-
+ margin: 0;
 }
 .contaier1 {
   display: flex;
@@ -11,27 +11,28 @@ main{
   position: absolute;
   left: 0px;
   top: 0px;
-  width: 448px;
-  height: 768px;
+  width: 715px;
+height: 982px;
   background: linear-gradient(60.67deg, #ffbc6e 0%, #ffddb6 100%, #432400 100%);
 }
 .image img {
   position: absolute;
-  left: 448px;
+  left: 715px;
+  right:0;
   top: 0px;
-  width: 576px;
-  height: 768px;
+  width: 800px;
+height: 982px;
 }
 header {
     z-index: 1;
   border-radius: 14px;
   background-color: #a44f00;
   position: absolute;
-  width: 452px;
-  height: 53px;
-  left: 109px;
+  width: 1095px;
+  height: 65px;
+  left: 209px;
   right: 463px;
-  top: 20px;
+  top: 28px;
 }
 nav {
   align-items: center;
@@ -41,52 +42,59 @@ ul {
   justify-content: center;
   align-items: center;
   padding: 15px 30px 18px;
-  gap: 73px;
+  gap: 150px;
 }
 li {
   letter-spacing: 0.44em;
   color: white;
   display: block;
-  margin-top: -15px;
+  margin-top: -10px;
 }
 .circle {
     z-index: 1;
   background-color: white;
   border-radius: 50%;
-  top: 12px;
-  left: 21px;
+  top: 10px;
+  left: 40px;
   position: absolute;
-  width: 74px;
-  height: 74px;
+  width: 98px;
+  height: 98px;
 }
 .intro h1 {
-    z-index: 1;
-  position: absolute;
-  width: 417px;
-  height: 304px;
-  left: 40px;
-  top: 191px;
-  font-size: 64px;
-  line-height: 122%;
-  letter-spacing: 0.23em;
+    position: absolute;
+    width: 577px;
+    height: 375px;
+    left: 75px;
+    top: 181px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 122%;
+    /* or 117px */
+    
+    letter-spacing: 0.23em;
+    
+    color: #000000;
 }
 .l1 {
     z-index: 1;
   position: absolute;
   width: 175px;
   height: 8px;
-  left: 475px;
-  top: 435px;
+  left: 673px;
+top: 550px;
   border-radius: 5px;
   background-color: black;
 }
 .l2 {
-    z-index: 1;
+  z-index: 1;
   position: absolute;
   width: 50px;
   height: 8px;
-  left: calc(475px + 175px + 10px);
-  top: 435px;
+  left: calc(673px + 175px + 10px);
+  top: 550px;
   border-radius: 5px;
   background-color: black;
 }
@@ -94,8 +102,8 @@ button {
   width: 175px;
   height: 60px;
   border-radius: 54px;
-  left: 137px;
-  top: calc(534px + 50px);
+  left: 234px;
+  top: calc(654px + 100px);
   position: absolute;
   border: none;
   font-size: 20px;
@@ -109,10 +117,11 @@ button {
   width: 175px;
   height: 60px;
   border-radius: 54px;
-  left: 137px;
-  top: calc(534px + 120px);
+  left: 234px;
+  top: calc(654px + 190px);
   position: absolute;
-  font-size: 16px;
+  font-size: 14px;
+  font-weight: 700;
   border: none;
   color: black;
   background-color: transparent;

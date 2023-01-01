@@ -73,16 +73,16 @@ li {
   width: 577px;
   height: 375px;
   left: 75px;
-  top: 181px;
+  top: 100px;
 
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 96px;
-  line-height: 122%;
+  line-height: 115%;
   /* or 117px */
 
-  letter-spacing: 0.23em;
+  letter-spacing: 0.22em;
 
   color: #000000;
 }
@@ -92,7 +92,7 @@ li {
   width: 175px;
   height: 8px;
   left: 673px;
-  top: 550px;
+  top: 500px;
   border-radius: 5px;
   background-color: black;
 }
@@ -102,7 +102,7 @@ li {
   width: 50px;
   height: 8px;
   left: calc(673px + 175px + 10px);
-  top: 550px;
+  top: 500px;
   border-radius: 5px;
   background-color: black;
 }
@@ -111,7 +111,7 @@ button {
   height: 74px;
   border-radius: 54px;
   left: 254px;
-  top: calc(654px + 100px);
+  top: calc(654px + 40px);
   position: absolute;
   border: none;
   font-size: 20px;
@@ -126,7 +126,7 @@ button {
   height: 60px;
   border-radius: 54px;
   left: 300px;
-  top: calc(654px + 180px);
+  top: calc(654px + 120px);
   position: absolute;
   font-size: 12px;
   font-weight: 1000;

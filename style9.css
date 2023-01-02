@@ -1,0 +1,104 @@
+body{
+    text-transform: uppercase;
+}
+.box{
+    border-radius: 10px;
+    margin: 100px auto;
+    height: 450px;
+    width: 400px;
+    background-color: rgb(112, 112, 112);
+}
+.circle{
+    background-color: antiquewhite;
+    height:120px;
+    width: 120px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left:140px;
+    margin-top: 10px;
+    border: 5px solid rgb(61, 61, 61);
+}
+.circle img{
+    margin-top: 15px;
+    margin-left:20px;
+    height: 80px;
+    width: 80px;
+}
+.circle1,.circle2,.circle3{
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    background-color: antiquewhite;
+    display: inline-block;
+}
+.circle2,.circle3{
+    margin-left: 10px;
+}
+.box1{
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 80px;
+}
+input{
+    padding-left: 10px;
+    border-radius:20px;
+    border: 0;
+    height: 40px;
+    width: 300px;
+    font-weight: 700;
+}
+button{
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 30px;
+    border: 0;
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    margin-left: 150px;
+    letter-spacing: 1px;
+    margin-top: 270px;
+    font-weight: 600;
+    color: rgb(95, 95, 95);
+}
+.top{
+    position: absolute;
+    display: block;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+.bottom{
+    position: absolute;
+    display: block;
+    margin-top: 210px;
+    margin-left: 50px;
+}
+hr{
+    border: 0;
+    height:2px;
+    background-color: rgba(0, 0, 0, 0.53);
+    position: absolute;
+    width: 400px;
+    margin-top: 325px;
+}
+::placeholder{
+    text-transform: uppercase;
+    margin-left: 30px;
+    letter-spacing: 2px;
+}
+.circle1 img{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+.circle2 img{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+.circle3 img{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
